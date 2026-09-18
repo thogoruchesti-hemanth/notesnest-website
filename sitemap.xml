@@ -61,6 +61,13 @@
   </url>
 
   <url>
+    <loc>https://notesnest-app.web.app/ananth-designs.html</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
     <loc>https://notesnest-app.web.app/blog.html</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
