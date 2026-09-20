@@ -13,7 +13,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Play Store](https://img.shields.io/badge/Google_Play-414141?style=flat&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.hemanth.NotesNest)
 
-[Explore Portal](https://notesnest-app.web.app) · [Report an Issue](https://github.com/Thogaruchesti-hemanth/notesnest-website/issues) · [Suggest a Feature](https://github.com/Thogaruchesti-hemanth/notesnest-website/issues)
+[Explore Portal](https://notesnest-app.web.app) · [Report an Issue](https://github.com/thogoruchesti-hemanth/notesnest-website/issues) · [Suggest a Feature](https://github.com/thogoruchesti-hemanth/notesnest-website/issues)
 
 </div>
 
@@ -99,7 +99,7 @@ To review or run the website locally, all you need is a modern web browser.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Thogaruchesti-hemanth/notesnest-website.git
+   git clone https://github.com/thogoruchesti-hemanth/notesnest-website.git
    ```
 
 2. **Enter directory**
@@ -183,7 +183,7 @@ Distributed under the MIT License. See the `LICENSE` file for more details.
 ## 📞 Support & Developer Info
 
 * **Developer Portfolio**: [Thogaruchesti Hemanth](https://thogaruchesti-hemanth.web.app/)
-* **GitHub Profile**: [@Thogaruchesti-hemanth](https://github.com/Thogaruchesti-hemanth)
+* **GitHub Profile**: [@thogoruchesti-hemanth](https://github.com/thogoruchesti-hemanth)
 * **Email Contact**: [saihemanth225@gmail.com](mailto:saihemanth225@gmail.com)
 * **App Play Store Link**: [Get NotesNest on Google Play](https://play.google.com/store/apps/details?id=com.hemanth.NotesNest)
 
@@ -193,6 +193,6 @@ Distributed under the MIT License. See the `LICENSE` file for more details.
 
 **⭐ Star this repository if you find the designs or app helpful!**
 
-Made with ❤️ by [Thogaruchesti Hemanth](https://github.com/Thogaruchesti-hemanth)
+Made with ❤️ by [Thogaruchesti Hemanth](https://github.com/thogoruchesti-hemanth)
 
 </div>
