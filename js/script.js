@@ -13,6 +13,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Track Play Store CTA locations through the existing Tag Manager setup.
+  const downloadLinks = document.querySelectorAll("[data-download-location]");
+  downloadLinks.forEach((link) => {
+    link.addEventListener("click", function () {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: "play_store_click",
+        download_location: this.dataset.downloadLocation,
+      });
+    });
+  });
+
   // FAQ Accordion
   const accordionHeaders = document.querySelectorAll(".accordion-header");
   accordionHeaders.forEach((header) => {

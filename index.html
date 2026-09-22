@@ -21,15 +21,13 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-    <title>
-      NotesNest - Free Encrypted Note-Taking & Productivity App for Android
-    </title>
+    <title>NotesNest: Secure Offline Notes, Notepad &amp; To-Do List for Android</title>
     <meta
       name="description"
-      content="NotesNest is a secure, encrypted productivity app for Android. Manage notes, to-do lists, reminders, and tasks with local backup and widgets." />
+      content="Download NotesNest for Android, a fast and private offline notepad with encrypted local storage, home screen widgets, daily checklists, and biometric app lock." />
     <meta
       name="keywords"
-      content="secure encrypted notes app for android, free ad-free task manager, best android productivity tools 2026, offline sqlite note backup, to-do list with reminders, private note organizer android, secure cloud sync notes" />
+      content="secure offline notes app android, encrypted notepad app, private notes Android, offline to-do list, biometric note lock, Android productivity app" />
     <meta name="author" content="Thogaruchesti Hemanth" />
     <meta
       name="robots"
@@ -52,10 +50,10 @@
     <meta property="og:url" content="https://notesnest-app.web.app/" />
     <meta
       property="og:title"
-      content="NotesNest - Smart Note-Taking & Productivity App for Android" />
+      content="NotesNest: Secure Offline Notes and To-Do List for Android" />
     <meta
       property="og:description"
-      content="Organize your thoughts with NotesNest. Manage notes, tasks, reminders, and goals with encrypted backups, PDF export, and beautiful Material Design 3 interface." />
+      content="A fast, private Android notepad for offline notes, checklists, reminders, widgets, and exportable backups." />
     <meta
       property="og:image"
       content="https://notesnest-app.web.app/images/og-image.jpeg" />
@@ -70,10 +68,10 @@
     <meta name="twitter:url" content="https://notesnest-app.web.app/" />
     <meta
       name="twitter:title"
-      content="NotesNest - Smart Note-Taking & Productivity App for Android" />
+      content="NotesNest: Secure Offline Notes and To-Do List for Android" />
     <meta
       name="twitter:description"
-      content="Organize your thoughts with NotesNest. Manage notes, tasks, reminders, and goals with encrypted backups, PDF export, and beautiful Material Design 3 interface." />
+      content="A fast, private Android notepad for offline notes, checklists, reminders, widgets, and exportable backups." />
     <meta
       name="twitter:image"
       content="https://notesnest-app.web.app/images/twitter-card.jpeg" />
@@ -149,30 +147,74 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "NotesNest",
-        "applicationCategory": "ProductivityApplication",
-        "operatingSystem": "Android",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "ratingCount": "1250"
-        },
-        "description": "A comprehensive Android productivity app for managing notes, tasks, reminders, and goals. Features secure authentication, encrypted backups, smart widgets, and export options.",
-        "image": "https://notesnest-app.web.app/images/logo.jpeg",
-        "author": {
-          "@type": "Person",
-          "name": "Thogaruchesti Hemanth",
-          "email": "saihemanth225@gmail.com",
-          "url": "https://github.com/thogoruchesti-hemanth"
-        },
-        "softwareVersion": "3.0.5",
-        "datePublished": "2025-04-14"
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://notesnest-app.web.app/#app",
+            "name": "NotesNest",
+            "applicationCategory": "ProductivityApplication",
+            "operatingSystem": "Android",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "description": "A private, offline-first Android notepad for notes, checklists, reminders, widgets, and exports.",
+            "image": "https://notesnest-app.web.app/images/logo.jpeg",
+            "downloadUrl": "https://play.google.com/store/apps/details?id=com.hemanth.NotesNest",
+            "softwareVersion": "3.0.5",
+            "author": {
+              "@type": "Person",
+              "name": "Thogaruchesti Hemanth",
+              "url": "https://github.com/thogoruchesti-hemanth"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://notesnest-app.web.app/#website",
+            "name": "NotesNest",
+            "url": "https://notesnest-app.web.app/",
+            "publisher": { "@id": "https://notesnest-app.web.app/#app" }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://notesnest-app.web.app/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Does NotesNest work without an internet connection?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. NotesNest is designed for offline-first note taking, checklists, and reminders. Optional cloud backup features may require an internet connection."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are my notes stored on external cloud servers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Your working notes are stored locally on your Android device. NotesNest also provides optional backup and export workflows, so you can choose when to create a backup."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I protect NotesNest with biometric authentication?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "NotesNest supports secure authentication options on compatible Android devices. Available biometric and passcode options depend on your device and app version."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I export my notes from NotesNest?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. NotesNest supports exporting notes in plain text, PDF, and image formats so you can share or keep a copy of your work."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -215,16 +257,17 @@
             <div class="hero-badge">
               <i class="fas fa-star"></i> ANDROID FIRST DESIGN
             </div>
-            <h1>Why Choose NotesNest?</h1>
+            <h1>Secure Offline Notes and To-Do List App for Android</h1>
             <p>
-              NotesNest focuses on the features Android users need most: secure
-              note storage, fast task organization, and easy access with no
-              unnecessary complexity.
+              NotesNest is a private, offline-first Android notepad for capturing
+              ideas, organizing daily checklists, and keeping important notes
+              close without unnecessary complexity.
             </p>
             <div class="hero-buttons">
               <a
-                href="https://play.google.com/store/apps/details?id=com.hemanth.NotesNest"
+                href="https://play.google.com/store/apps/details?id=com.hemanth.NotesNest&amp;referrer=utm_source%3Dofficial_website%26utm_medium%3Dlanding_page%26utm_campaign%3Dhomepage_hero"
                 class="cta-button primary"
+                data-download-location="homepage-hero"
                 target="_blank"
                 rel="noopener noreferrer">
                 <i class="fab fa-android"></i>&nbsp;Download for Android
@@ -247,10 +290,10 @@
       <section class="features" id="features">
         <div class="container">
           <div class="section-title">
-            <h2>Core Features</h2>
+            <h2>Core Features Built for Android Productivity</h2>
             <p>
-              Everything you need for a professional note-taking experience,
-              built specifically for the Android ecosystem
+              Private notes, practical checklists, reminders, search, widgets,
+              and export tools in one focused Android productivity app.
             </p>
           </div>
           <div class="core-features-grid">
@@ -259,10 +302,10 @@
               <div class="feature-icon icon-yellow-white">
                 <i class="fas fa-lock"></i>
               </div>
-              <h3>Privacy first:</h3>
+              <h3>On-Device Privacy and App Protection</h3>
               <p>
-                Encrypted local notes protect your data on-device. Your thoughts
-                remain your own, with industry-standard encryption protocols.
+                Encrypted local storage and secure authentication help keep your
+                personal notes protected on your device.
               </p>
             </div>
 
@@ -271,7 +314,7 @@
               <div class="feature-icon icon-yellow-black">
                 <i class="fas fa-tasks"></i>
               </div>
-              <h3>Clear task flow:</h3>
+              <h3>Daily Notes and To-Do Checklists</h3>
               <p>Track notes, reminders, and to-dos in one app seamlessly.</p>
             </div>
 
@@ -280,7 +323,7 @@
               <div class="feature-icon icon-dark-yellow">
                 <i class="fas fa-th-large"></i>
               </div>
-              <h3>Home screen convenience:</h3>
+              <h3>Interactive Home Screen Widgets</h3>
               <p>
                 Widgets let you add and preview notes instantly from your home
                 screen.
@@ -292,10 +335,10 @@
               <div class="feature-icon icon-gray-black">
                 <i class="fas fa-link-slash"></i>
               </div>
-              <h3>Offline reliability:</h3>
+              <h3>Offline-First Reliability</h3>
               <p>
-                Export and backup even without internet. Full offline
-                capability.
+                Capture notes, manage checklists, and review your information
+                offline, then choose when to export or back it up.
               </p>
             </div>
 
@@ -304,7 +347,7 @@
               <div class="feature-icon icon-black-white">
                 <i class="fas fa-search"></i>
               </div>
-              <h3>Fast search:</h3>
+              <h3>Instant Search and Note Organization</h3>
               <p>
                 Locate notes quickly using titles, content, and tags. Powerful
                 indexing for instant results across thousands of entries.
@@ -316,7 +359,7 @@
               <div class="feature-icon icon-gray-black">
                 <i class="fas fa-share-alt"></i>
               </div>
-              <h3>Share-ready:</h3>
+              <h3>Share-Ready Note Exports</h3>
               <p>Export notes as PDF, text, or image formats with one tap.</p>
             </div>
 
@@ -325,7 +368,7 @@
               <div class="feature-icon icon-gray-black">
                 <i class="fas fa-moon"></i>
               </div>
-              <h3>Comfortable UX:</h3>
+              <h3>Comfortable Android Experience</h3>
               <p>Dark mode and a clean interface for distraction-free use.</p>
             </div>
 
@@ -336,7 +379,7 @@
                   <i class="fas fa-tachometer-alt"></i>
                   <span>PRO</span>
                 </div>
-                <h3>Performance first:</h3>
+                <h3>Performance for Everyday Productivity</h3>
                 <p>
                   Optimized for smooth note keeping at any scale, ensuring your
                   experience remains fluid even with thousands of entries.
@@ -352,6 +395,121 @@
                 >
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section comparison-section" id="privacy">
+        <div class="container content-section-grid">
+          <div class="content-section-intro">
+            <span class="section-kicker">A calmer place for your information</span>
+            <h2>Why Choose NotesNest for Private Notes?</h2>
+            <p>
+              NotesNest keeps the everyday note-taking workflow close at hand:
+              write quickly, check off what matters, and return to your notes
+              without turning a simple memo into a complicated project.
+            </p>
+            <p>
+              The app is designed around local-first use on Android. Your notes
+              remain available on the device, while export and backup options
+              let you decide when a copy should leave it. That balance makes
+              NotesNest useful for private thoughts, study notes, errands, and
+              work checklists alike.
+            </p>
+          </div>
+          <div class="comparison-table-wrap">
+            <table class="comparison-table">
+              <caption>NotesNest and common cloud-first note apps</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Capability</th>
+                  <th scope="col">NotesNest</th>
+                  <th scope="col">Cloud-first alternatives</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Everyday note access</th>
+                  <td>Offline-first on Android</td>
+                  <td>Often depends on account or network access</td>
+                </tr>
+                <tr>
+                  <th scope="row">Privacy controls</th>
+                  <td>Local storage and app authentication</td>
+                  <td>Usually centered on server accounts</td>
+                </tr>
+                <tr>
+                  <th scope="row">Backup choice</th>
+                  <td>Export or back up when needed</td>
+                  <td>Automatic sync is commonly enabled</td>
+                </tr>
+                <tr>
+                  <th scope="row">Android workflow</th>
+                  <td>Widgets, reminders, lists, and exports</td>
+                  <td>Feature depth varies by product</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="security-section">
+        <div class="container security-section-inner">
+          <div>
+            <span class="section-kicker">Security, explained plainly</span>
+            <h2>Local Notes with Practical Protection</h2>
+          </div>
+          <p>
+            NotesNest is built to keep working notes on your Android device and
+            to support secure authentication and encrypted local data handling.
+            Compatible devices can use biometric or passcode protection. When
+            you create an export or optional backup, treat that copy with the
+            same care as the original because its protection depends on the
+            destination you choose.
+          </p>
+        </div>
+      </section>
+
+      <section class="faq-section" id="faq">
+        <div class="container">
+          <div class="section-title">
+            <span class="section-kicker">Answers before you install</span>
+            <h2>Frequently Asked Questions</h2>
+            <p>Clear answers about offline notes, privacy, backups, and exports.</p>
+          </div>
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>Does NotesNest work without an internet connection?</summary>
+              <p>
+                Yes. NotesNest is designed for offline-first note taking,
+                checklists, and reminders. Optional cloud backup features may
+                require an internet connection.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>Are my notes stored on external cloud servers?</summary>
+              <p>
+                Your working notes are stored locally on your Android device.
+                NotesNest also provides optional backup and export workflows, so
+                you can choose when to create a backup.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>Can I protect NotesNest with biometric authentication?</summary>
+              <p>
+                NotesNest supports secure authentication options on compatible
+                Android devices. Available biometric and passcode options depend
+                on your device and app version.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>Can I export my notes from NotesNest?</summary>
+              <p>
+                Yes. NotesNest supports exporting notes in plain text, PDF, and
+                image formats so you can share or keep a copy of your work.
+              </p>
+            </details>
           </div>
         </div>
       </section>
